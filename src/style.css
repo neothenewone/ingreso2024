@@ -1,0 +1,224 @@
+.labeles{
+    font-size: smaller;
+   }
+   @media only screen and (min-width: 1151px) {
+     .resolucion{
+       display: none;    
+     }
+       
+     form{
+     display: flex;
+       padding: 10px;
+       width: 1150px;
+       background: #f9f9f9;
+       margin: auto;
+       margin-top: 70px;
+       border-radius: 25px;
+       font-family: 'calibri';
+       color: #4a3d3d;
+       box-shadow: -1px 1px 20px 0px #b3b8d1;
+       flex-wrap: wrap;
+       align-items: baseline;
+       justify-content: space-around;
+   } 
+   .botonEnviar{
+     
+     width: 150px;
+   }
+   .botonEnviar:hover {
+     width: 150px;
+   
+     background-color: #286d3e;
+     color: white;
+     cursor: pointer;
+   
+   }
+   form .encabezados{
+    text-align: center;
+    margin-right: 10px;
+   
+   }
+   .datos-personales{
+     width: 40%;
+     background: #fdfdfd;
+     padding: 10px;
+     border-radius: 14px;
+     margin-bottom: 16px;
+     border: 1px solid #a1a4a9;
+     font-family: 'calibri';
+     font-size: 18px;
+     color: #525252;
+     flex-wrap: wrap;
+     margin-right: 5px;
+     
+   }
+   .educacion_formal{
+     width: 90%;
+     background: #fdfdfd;
+     padding: 10px;
+     border-radius: 14px;
+     margin-bottom: 16px;
+     border: 1px solid #a1a4a9;
+     font-family: 'calibri';
+     font-size: 18px;
+     color: #525252;
+     flex-wrap: wrap;
+     margin-right: 5px;
+      
+   }
+   .educacion_formal:hover{
+     background-color: #52525209;
+   }
+   .preguntas{
+     width: 90%;
+     background: #fdfdfd;
+     padding: 10px;
+     border-radius: 14px;
+     margin-bottom: 16px;
+     border: 1px solid #a1a4a9;
+     font-family: 'calibri';
+     font-size: 18px;
+     color: #525252;
+     flex-wrap: wrap;
+     margin-right: 5px;
+     
+   }
+   
+   .domicilio_y_datos_de_contacto{
+     width: 45%;
+     background: #fdfdfd;
+     padding: 10px;
+     border-radius: 14px;
+     margin-bottom: 16px;
+     border: 1px solid #a1a4a9;
+     font-family: 'calibri';
+     font-size: 18px;
+     color: #525252;
+   
+     margin-right: 5px;
+   
+   }
+   
+   }
+   @media only screen and (min-width: 375px) and (max-width: 1150px) {
+     .resolucion{
+       display: none; 
+       
+     }
+     
+     form{
+     
+       padding: 10px;
+       width: 345px;
+       background: #f9f9f9;
+       margin: auto;
+       margin-top: 70px;
+       border-radius: 25px;
+       font-family: 'calibri';
+       color: #4a3d3d;
+       box-shadow: -1px 1px 20px 0px #b3b8d1;
+   } 
+   form .encabezados{
+    text-align: right;
+    margin-right: 10px;
+   }
+   .contenedor-boton{
+     
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    
+   }
+   .botonEnviar{
+     
+     align-items: center;
+     width: 100%;
+     background: #585a5c;
+     border: none;
+     padding: 12px;
+     color: #e3e5e9;
+     margin: 3px 0;
+     border-radius: 45px;
+     font-size: 16px;
+   
+     }
+   
+     .botonEnviar:hover {
+   
+       background-color: #286d3e;
+       color: white;
+       cursor: pointer;
+     }
+   }
+   
+   @media only screen and (max-width: 374px) {
+   
+     form{
+       display:none;
+     }
+     
+     
+   }
+   
+    .titulo{
+      text-align: center;
+    }
+   
+   
+         
+   
+   
+   input {
+     width: 93.5%;
+     background: #fdfdfd;
+     padding: 10px;
+     border-radius: 14px;
+     margin-bottom: 16px;
+     border: 1px solid #a1a4a9;
+     font-family: 'calibri';
+     font-size: 18px;
+     color: #525252;
+   }
+   .campos:focus {
+     border:5px solid white ;
+     font-size: 30px;
+   margin-left: -5px;
+   
+   }
+   .deptos{
+     width: 340px;
+     background: #fdfdfd;
+     padding: 10px;
+     border-radius: 14px;
+     margin-bottom: 16px;
+     border: 1px solid #a1a4a9;
+     font-family: 'calibri';
+     font-size: 18px;
+     color: #525252;
+    }
+   
+   .posee{
+     width: auto;
+     background: #585a5c;
+     border: none;
+     margin: 15px;
+     color: #e3e5e9;
+     border-radius: 2px;
+     text-align: center;
+     font-size: 16px;
+   }
+   hr{
+    color: #fdfdfd;
+    background-color:  #e3e5e9;
+    padding: .5px;
+    border: solid;
+    width: 100%;
+   }
+   
+   .aviso{
+     color:red;
+   }
+     footer{
+       font-size: small;
+       text-align: center;
+     }
